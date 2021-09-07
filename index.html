@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My todo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
 
+<body>
+    <div class="todo-container">
+
+        <h1 class="h1"> My todo </h1>
+
+        <div class="input">
+            <div class="select">
+                <input id="check-all" type="checkbox">
+                <label for="check-all"></label>
+            </div>
+            <input type="text" class="form-control" placeholder="What needs to be done?" name="">
+            <div class="add">
+                <i class="material-icons">add</i>
+            </div>
+        </div>
+
+        <ul class="todo-list"></ul>
+
+        <ul class="pages">
+            <ul class="pagination"></ul>
+        </ul>
+
+        <div class="info">
+            <span class="total"></span>
+            <span class="done"></span>
+            <span class="undone"></span>
+        </div>
+
+        <footer class="footer">
+            <button data-status='all' id='all' class="status-tab">All</button>
+
+            <button data-status='active' id='active' class="status-tab">Active</button>
+
+            <button data-status='completed' id='completed' class="status-tab">Completed</button>
+            
+            <button class="clear">Clear completed</button>
+        </footer>
+    </div>
+
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" 
+        integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" 
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous">
+    </script>
+   <script src="script.js">
+   </script>
+</body>
+</html>
