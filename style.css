@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #eedcfc;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    color: #c4a6fd;
+    font-size: 66px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.select {
+    color: blueviolet;
+    background: #d3bcfd;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.form-control {
+    background: #d3bcfd;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 0px 20px;
+    font-size: 16px;
+    color:blueviolet;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);               
+}
+
+.add .material-icons {
+    background: #d3bcfd;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 30 px;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+
+
+.todo-list li {
+    word-wrap: break-word;
+    max-width: 1500px; 
+    padding: 15px;
+    color: blueviolet;
+    background: #d3bcfd;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.remove {
+    color: blueviolet;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+    left: 95%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.page {
+    display: inline; 
+}
+
+.page .pages{
+    font-size: 16px;
+    color: blueviolet;
+    background: #d3bcfd;
+    width: 30px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.page .pagesSelected {
+    font-size: 16px;
+    color: rgb(79, 19, 134);
+    background: #bfa1f7;
+    width: 30px;
+    height: 35px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: blueviolet;
+}
+
+.clear {
+    color: blueviolet;
+    background: #d3bcfd;
+    width: 110px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.status-tab {
+    color: blueviolet;
+    background: #d3bcfd;
+    width: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.current-stat {
+    color: rgb(79, 19, 134);
+    background: #bfa1f7;
+    width: 70px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: -6px -6px 10px rgb(255, 255, 255, 0.03),
+                6px 6px 10px rgb(10, 8, 10, 0.8);
+}
+
+.doneTodo {
+    text-decoration: line-through;
+}
